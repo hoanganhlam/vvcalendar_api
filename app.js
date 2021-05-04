@@ -16,7 +16,7 @@ if (!fs.existsSync(pdf_dir)) {
 if (!fs.existsSync(img_dir)) {
   fs.mkdirSync(img_dir);
 }
-const listAllow = ['http://127.0.0.1:3000']
+const listAllow = ['http://127.0.0.1:3000', 'https://calendar-2021-tau.vercel.app']
 
 const corsOptionsDelegate = function (req, callback) {
   let corsOptions;
